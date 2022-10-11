@@ -1,0 +1,149 @@
+h1{
+	text-align: center;
+	color: #FFFFFF;
+	text-transform: uppercase;
+}
+
+h2{
+	color:#000080; 
+	text-transform: uppercase;
+}
+
+section{
+	background-color: #7b7b7b;
+}
+
+/* From feedback for assignment 2
+a{
+	color: #000000;
+	background-color: #d1d1d1;
+}*/
+
+/*Assignment 2*/
+body{
+	margin: 10px 15px;
+	padding: 5px;
+}
+
+/*Assignment 2*/
+header{
+	background-color: #B3B3B3;
+	background-image: url('../images/flywheel.jpg');
+	background-repeat: no-repeat; /*Feedback from Assignment 2*/
+	background-size: cover; /*Feedback from Assignment 2*/
+	padding: 5px;
+}
+
+nav a{
+	display: inline-block;
+	margin: 5px 30px 40px 40px;
+	border-radius: 10px 10px 10px 10px;
+	border-radius: -webkit-border-radius(10px 10px 10px 10px);
+	border-radius: -moz-border-radius(10px 10px 10px 10px);
+	border-radius: -o-border-radius(10px 10px 10px 10px);
+	text-decoration: none;
+	padding: 10px 40px;
+	color: #000000; /*Feedback from Assignment 2*/
+}
+
+.active{
+	background-color: #ffffff;
+	color: #0000ff;
+	font-weight: bold;
+}
+
+aside{
+	background-color: #7FBF3F;
+	float: left;
+	width: 20%;
+	padding-bottom: 180px;
+}
+
+section{
+	float: right;
+	width: 78%;
+}
+
+aside img{
+	border: solid 3px #000000;
+	display: block;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 70%;
+}
+
+main{
+	display: inline-block;
+}
+
+.right{
+	background-color: #ffffff;
+	margin-right: 20px;
+	font-size: 110%;
+}
+
+/*Assignment 3*/
+/*The table should be styled using at least four properties*/
+table{
+	font-family: "Times New Roman", Arial, Serif;
+	font-size: 110%;
+	font-weight: normal;
+	line-height: 40px;
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 5px;
+	margin-bottom: 15px;
+	border-spacing: 2;
+}
+
+/*The table headings should have a thicker bottom border with the top two corners rounded, a background color, and at least one other property*/
+th{
+	background: #7B9600;
+	background: -webkit-linear-gradient(#66CC00, #7B9600);
+	background: -moz-linear-gradient(#66CC00, #7B9600);
+	background: -o-linear-gradient(#66CC00, #7B9600);
+	background: linear-gradient(#66CC00, #7B9600);
+	border: 1px solid #7B9600;
+	border-radius: 5px 5px 0px 0px;
+	border-bottom: 3px solid #CCCC00;
+	color: #ffffff;
+	height: 45px;
+	padding: 0px 0px 0px 7px;
+}
+
+/* The text in the first column is left-aligned and the text in the other two columns is centered*/
+th, td{
+	text-align: center;
+}
+
+th:first-child, td:first-child{
+	text-align: left;
+}
+
+/*Opacity of the table rows*/
+tr{
+	opacity: 0.8;
+}
+
+tr:hover{
+	opacity: 1;
+}
+
+/*The table elements <td> should be styled using at least four properties*/
+td{
+	height: 40px;
+	padding: 0px 0px 0px 7px;
+	font-color: #545747;
+	background-color: #C7C9C0;
+	border-radius: 2px 2px 2px 2px;
+	text-shadow: 0.5px 0.5px #505028;
+}
+
+
+
+
+
+
+
+
